@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /mighty-nut(/|$)(.*)
                         backend:
                             serviceName: mighty-nut-microservice-service
                             servicePort: 30201
